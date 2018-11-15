@@ -35,7 +35,3 @@ def get_chart_data(year, month, day):
             print("If no data was downloaded, ensure that the provided date was correctly formatted:")
             print("For Example: get_chart_data(2018, 08, 03)")
             has_finished = True
-
-# YYYY/MM/DD
-# Gets chart data from September 30th 2018 until now
-#get_chart_data(2018, 9, 30)
