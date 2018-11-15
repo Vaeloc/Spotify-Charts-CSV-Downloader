@@ -3,6 +3,8 @@ A script for quickly downloading a large amount of the **daily** CSV data files 
 
 # Setup Instructions
 
+This script was written and run in Python 3.6.2 so if there are any errors it is most likely due to running it on a different version of Python.
+
 1) Install the Selenium package in Python with pip:
 
 ```pip install selenium```
@@ -17,9 +19,9 @@ Change the file path of the ChromeDrive.exe in the constructor to your ChromeDri
 
 # Usage
 
-To use the script you need to pass it 3 parameters. The year, the month, and the day of the date you want to start downloading FROM. 
+To use the script you need to pass it 3 parameters. The year, the month, and the day of the date you want to start downloading FROM in the format of YYYY/M/D. For example, "get_chart_data(2018, 6, 1)" to get all files from June 1st 2018 until now.
 
-For example, to download all the CSV files for November so far you call the function in the script file like so: 
+To download all the CSV files for November so far you call the function in the script file like so: 
 
 ```
 # Download CSV files from November 1st up to the current day.
